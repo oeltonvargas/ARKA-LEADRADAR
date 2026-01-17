@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+```
+
+4. **Commit:** "Create index.css"
+
+---
+
+### **Arquivo 8: `src/App.jsx`**
+
+1. **Add file → Create new file**
+2. **Nome:** `src/App.jsx`
+3. **Cole o código COMPLETO que você anotou** (as ~600 linhas)
+4. **Commit:** "Create App.jsx"
+
+---
+
+## ✅ **PASSO 5: VERIFICAR ESTRUTURA**
+
+Seu repositório deve estar assim:
+```
+arca-scan/
+├── README.md
+├── package.json
+├── vite.config.js
+├── tailwind.config.js
+├── postcss.config.js
+├── index.html
+└── src/
+    ├── main.jsx
+    ├── index.css
+    └── App.jsx
